@@ -1,0 +1,30 @@
+{
+  "split": "GroupKFold(5) by client_id",
+  "seed": 42,
+  "sklearn": "1.9.1",
+  "rows": 18010,
+  "base_rate": 0.6158,
+  "mean_by_method": {
+    "dummy": {
+      "precision@50": 0.624,
+      "precision@100": 0.632,
+      "roc_auc": 0.5037
+    },
+    "baseline_rule": {
+      "precision@50": 0.808,
+      "precision@100": 0.816,
+      "roc_auc": 0.599
+    },
+    "logistic_regression": {
+      "precision@50": 0.752,
+      "precision@100": 0.772,
+      "roc_auc": 0.6169
+    },
+    "random_forest": {
+      "precision@50": 0.788,
+      "precision@100": 0.788,
+      "roc_auc": 0.5959
+    }
+  },
+  "random_split_rf_auc": 0.7049
+}

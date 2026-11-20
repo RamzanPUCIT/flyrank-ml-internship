@@ -1,0 +1,8 @@
+{
+  "precision_at_50_floor": 0.716,
+  "current_precision_at_50": 0.82,
+  "base_rate": 0.616,
+  "status": "OK",
+  "top10_per_client_pages": 267,
+  "top10_drop_rate": 0.7
+}

@@ -1,0 +1,20 @@
+{
+  "baseline_rule": {
+    "base_rate": 0.634,
+    "precision@50": 0.808,
+    "precision@100": 0.816,
+    "roc_auc": 0.599
+  },
+  "logistic_regression": {
+    "base_rate": 0.634,
+    "precision@50": 0.752,
+    "precision@100": 0.772,
+    "roc_auc": 0.617
+  },
+  "random_forest": {
+    "base_rate": 0.634,
+    "precision@50": 0.8,
+    "precision@100": 0.78,
+    "roc_auc": 0.597
+  }
+}

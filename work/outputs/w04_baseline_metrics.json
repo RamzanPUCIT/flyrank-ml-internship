@@ -1,0 +1,22 @@
+{
+  "slice_rows": 18010,
+  "clients": 30,
+  "base_rate": 0.6158,
+  "precision_at_10": 0.8,
+  "precision_at_50": 0.82,
+  "precision_at_100": 0.82,
+  "per_client_precision_at_10_median": 0.8,
+  "per_client_base_rate_median": 0.6469,
+  "clients_with_50plus_pages": 18,
+  "reason_code_counts": {
+    "LOW_RISK": 6657,
+    "WEAK_CTR_WITH_DEMAND": 6233,
+    "ZERO_CLICK_YOUNG_PAGE": 2760,
+    "YOUNG_PAGE_SETTLING": 2360
+  },
+  "score_formula": {
+    "youth": 0.4,
+    "weak_ctr": 0.4,
+    "demand": 0.2
+  }
+}
